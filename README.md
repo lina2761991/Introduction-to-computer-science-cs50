@@ -1,6 +1,9 @@
 # Introduction-to-computer-science-cs50
 These are the problems I solved while studying the courses of cs50 Introduction to computer science 
 In this file you can find the bullet points I learnt from this certificate
+
+
+
 ## 1.c Programming 
 
 compiler converts source code into a machine code( using the command make)
