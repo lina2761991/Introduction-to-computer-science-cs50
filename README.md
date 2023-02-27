@@ -46,6 +46,20 @@ using debugger : we set a breakpoint then we can use the step over, step into or
 int main(int argc , string argv[]){} <br/>
 argc ; is the argument count  <br/>
 argv; array of strings of the elements that were written after compilation <br/>
-
-
+### compiling <br/>
+the compiler that we used in c is gcc , theres also clang
+#### steps of compiling <br/>
+preprocessing: include librairies contain functions that prewritten like printf<br/>
+compiling: convert the code from c to assembly(cpu can understand)<br/>
+assembling: convert the assemby code to machine code( binary 0 and 1) <br/> 
+linking: links the code ,the libriaries giving the whole machine code <br/>
+### cryptography<br/>
+encrypting and decrypting<br/>
+for example cipher is an algorithm that encrypts text.<br/>
+we use a key in the encryption<br/>
+### strings <br/>
+string is an array of characters <br/>
+when the string ends theres \0( c adds it at the end)<br/>
+(%s ,string ,%i is int and %c is a character)<br/>
+strlen; tells the length of a string <br/>
 
