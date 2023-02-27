@@ -63,3 +63,90 @@ when the string ends theres \0( c adds it at the end)<br/>
 (%s ,string ,%i is int and %c is a character)<br/>
 strlen; tells the length of a string <br/>
 
+## 3/ Algorithms <br/>
+
+### Recursion <br/>
+a function that calls itself and the iteration gets smaller and smaller as we go through <br/>
+Constant Time — O(1) <br/>
+It doesn't depend on the input (n); like always returning the same value or extracting the first element (zero effort) <br/>
+### Linear Search <br/>
+In linear search, the idea of the algorithm is to iterate across the array from left to right, searching for a specified element. <br/>
+In pseudocode: <br/>
+• Repeat, starting at the first element: <br/>
+• If the first element is what you’re looking for (the target), stop. <br/>
+• Otherwise, move to the next element. <br/>
+*worst case:O(n) <br/>
+*Best case :Ω(1) <br/>
+### Binary Search
+*we should have a sorted array <br/>
+*we divide the values that we have into 2 and each part into 2 <br/>
+*An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step (division by 2 )
+note <br/>
+log28 = 3 // the log here means how many times should we divide the 8 on 2 to reach the result(which is 3 ) ,it is log 2 of 8 which is 3  <br/>
+in general ; log (n) is the number of times we should devide the n on 2 to reach the result  <br/>
+In pseudocode: <br/>
+Repeat until the (sub)array is of size 0: <br/>
+Calculate the middle point of the current (sub)array. <br/>
+If the target is in the middle, stop. <br/>
+Otherwise, if the target is less than what’s in the middle, repeat, changing the end <br/>
+point to be just to the left of the middle. <br/>
+Otherwise, if the target is greater than what’s in the middle, repeat, changing the start point to be just to the right of the middle. <br/>
+/////////////////////////
+def binary_search(data, value):
+    n = len(data)
+    left = 0
+    right = n - 1
+    while left <= right:
+        middle = (left + right) /2
+        if value < data[middle]:
+            right = middle - 1
+        elif value > data[middle]:
+            left = middle + 1
+        else:
+            return middle
+    raise ValueError('Value is not in the list)
+    
+if __name__ == '__main__':
+    data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(binary_search(data, 8))
+////////////////////////////
+*O(log n)
+*Ω(1)
+### Sorting: <br/>
+### Bubble Sort (swapping each adjasscent pair) <br/>
+*An algorithm is said to have  a quadratic time complexity when it needs to perform a linear time operation for each value in the input data <br/>
+pseudocode: <br/>
+*set the swap counter to a non-zero value <br/>
+*repeat until the swap counter is 0: <br/>
+	- reset swap counter to 0 <br/>
+	- look at each adjacent pair <br/>
+ 		.if 2 adjacent elements are not in order, swamp them and add one to the swap counter  <br/>
+*worst case :O(n²) <br/>
+*Best case :O(n) <br/>
+### Selection Sort( putting the highest value to the end) <br/>
+pseudocode: <br/>
+* Repeat until no unsorted element remains: <br/>
+* Search the unsorted part of the data to find the smallest value <br/>
+* Swap the smallest found value with the first element of the unsorted part <br/>
+*worst case :O(n²) <br/>
+*Best case :O(n²) <br/>
+### Merge Sort <br/>
+sort left half of the array  <br/>
+sort the right half of the array  <br/>
+merge sorted halves <br/>
+*O(n log n)* <br/>
+fastest to slowest: =>apply exponential <br/>
+*o(1)   => 0 <br/>
+ *o(log n)  => binary search <br/>
+*o(n) => linear search <br/>
+*o(n log n) =>  merge sort <br/>
+*o(n²)  =>buble sort /selection sort  <br/>
+PS: <br/>
+*segmentation fault dumped ;  <br/>
+means you touched memory you should not have touched(like iterating over a length that is higher than the array) <br/>
+*Big-O notation  == asymptotic notation <br/>
+comparing algorithms depends on the runing time and how much space it needs  <br/>
+scalability ;is how much the resource changes when we change input  <br/>
+
+
+
