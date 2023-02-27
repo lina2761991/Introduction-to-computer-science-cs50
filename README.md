@@ -91,27 +91,27 @@ If the target is in the middle, stop. <br/>
 Otherwise, if the target is less than what’s in the middle, repeat, changing the end <br/>
 point to be just to the left of the middle. <br/>
 Otherwise, if the target is greater than what’s in the middle, repeat, changing the start point to be just to the right of the middle. <br/>
-/////////////////////////
-def binary_search(data, value):
-    n = len(data)
-    left = 0
-    right = n - 1
-    while left <= right:
-        middle = (left + right) /2
-        if value < data[middle]:
-            right = middle - 1
-        elif value > data[middle]:
-            left = middle + 1
-        else:
-            return middle
-    raise ValueError('Value is not in the list)
+/////////////////////////<br/>
+def binary_search(data, value):<br/>
+    n = len(data)<br/>
+    left = 0<br/>
+    right = n - 1<br/>
+    while left <= right:<br/>
+        middle = (left + right) /2<br/>
+        if value < data[middle]:<br/>
+            right = middle - 1<br/>
+        elif value > data[middle]:<br/>
+            left = middle + 1<br/>
+        else:<br/>
+            return middle<br/>
+    raise ValueError('Value is not in the list)<br/>
     
-if __name__ == '__main__':
-    data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    print(binary_search(data, 8))
-////////////////////////////
-*O(log n)
-*Ω(1)
+if __name__ == '__main__':<br/>
+    data = [1, 2, 3, 4, 5, 6, 7, 8, 9]<br/>
+    print(binary_search(data, 8))<br/>
+////////////////////////////<br/>
+*O(log n)<br/>
+*Ω(1)<br/>
 ### Sorting: <br/>
 ### Bubble Sort (swapping each adjasscent pair) <br/>
 *An algorithm is said to have  a quadratic time complexity when it needs to perform a linear time operation for each value in the input data <br/>
