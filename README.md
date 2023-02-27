@@ -88,8 +88,7 @@ In pseudocode: <br/>
 Repeat until the (sub)array is of size 0: <br/>
 Calculate the middle point of the current (sub)array. <br/>
 If the target is in the middle, stop. <br/>
-Otherwise, if the target is less than what’s in the middle, repeat, changing the end <br/>
-point to be just to the left of the middle. <br/>
+Otherwise, if the target is less than what’s in the middle, repeat, changing the end point to be just to the left of the middle. <br/>
 Otherwise, if the target is greater than what’s in the middle, repeat, changing the start point to be just to the right of the middle. <br/>
 /////////////////////////<br/>
 def binary_search(data, value):<br/>
@@ -135,16 +134,16 @@ sort left half of the array  <br/>
 sort the right half of the array  <br/>
 merge sorted halves <br/>
 *O(n log n)* <br/>
-fastest to slowest: =>apply exponential <br/>
+##### fastest to slowest: =>apply exponential <br/>
 *o(1)   => 0 <br/>
  *o(log n)  => binary search <br/>
 *o(n) => linear search <br/>
 *o(n log n) =>  merge sort <br/>
-*o(n²)  =>buble sort /selection sort  <br/>
+*o(n²)  =>buble sort /selection sort  <br/><br/><br/>
 PS: <br/>
 *segmentation fault dumped ;  <br/>
 means you touched memory you should not have touched(like iterating over a length that is higher than the array) <br/>
-*Big-O notation  == asymptotic notation <br/>
+*Big-O notation  == asymptotic notation <br/><br/>
 comparing algorithms depends on the runing time and how much space it needs  <br/>
 scalability ;is how much the resource changes when we change input  <br/>
 
