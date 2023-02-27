@@ -35,3 +35,17 @@ setwd : change path <br/>
 ### variables and scoopes <br/>
 local variables: access only within the function in which they are created <br/>
 global variables: can be accessed by any function in the program <br/>
+
+## 2/ Arrays <br/>
+arrays hold values of the same type at different locations in the memory<br/> 
+decclaration : type name [size]<br/>
+### debugging<br/>
+using printf<br/>
+using debugger : we set a breakpoint then we can use the step over, step into or step through <br/>
+### commandline args <br/>
+int main(int argc , string argv[]){} <br/>
+argc ; is the argument count  <br/>
+argv; array of strings of the elements that were written after compilation <br/>
+
+
+
