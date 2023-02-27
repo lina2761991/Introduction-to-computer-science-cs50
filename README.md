@@ -21,7 +21,7 @@ interpretation is fast <br/>
 requires more memory<br/>
 memory management is more complex <br/>
 the interpreter is responsible for allocating and freeing the memory dynamically <br/>
-### Command line:<br/>
+### Command lines:<br/>
 ls : seing the list of files and directories under the current directory<br/>
 cd : change directory ; go to a certain directory <br/>
 mkdir :make a directory <br/>
@@ -31,3 +31,7 @@ rm -r folerName : to remove a folder <br/>
 mv : move from one location to another <br/>
 pwd: path of the current directory <br/>
 setwd : change path <br/>
+
+### variables and scoopes <br/>
+local variables: access only within the function in which they are created <br/>
+global variables: can be accessed by any function in the program <br/>
