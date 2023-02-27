@@ -83,7 +83,7 @@ In pseudocode: <br/>
 *An algorithm is said to have a logarithmic time complexity when it reduces the size of the input data in each step (division by 2 )
 note <br/>
 log28 = 3 // the log here means how many times should we divide the 8 on 2 to reach the result(which is 3 ) ,it is log 2 of 8 which is 3  <br/>
-in general ; log (n) is the number of times we should devide the n on 2 to reach the result  <br/>
+in general ; log (n) is the number of times we should divide the n on 2 to reach the result  <br/>
 In pseudocode: <br/>
 Repeat until the (sub)array is of size 0: <br/>
 Calculate the middle point of the current (sub)array. <br/>
