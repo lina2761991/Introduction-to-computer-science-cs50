@@ -121,14 +121,14 @@ pseudocode: <br/>
 	- look at each adjacent pair <br/>
  		.if 2 adjacent elements are not in order, swamp them and add one to the swap counter  <br/>
 *worst case :O(n²) <br/>
-*Best case :O(n) <br/>
+*Best case :Ω(n) <br/>
 ### Selection Sort( putting the highest value to the end) <br/>
 pseudocode: <br/>
 * Repeat until no unsorted element remains: <br/>
 * Search the unsorted part of the data to find the smallest value <br/>
 * Swap the smallest found value with the first element of the unsorted part <br/>
 *worst case :O(n²) <br/>
-*Best case :O(n²) <br/>
+*Best case :Ω(n²) <br/>
 ### Merge Sort <br/>
 sort left half of the array  <br/>
 sort the right half of the array  <br/>
