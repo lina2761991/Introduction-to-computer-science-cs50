@@ -208,6 +208,9 @@ the rules for dynamic memory allocation :<br/>
 	
 
 However, If you are working with relatively small variables that are only required until the function using them is alive. Then you need to use the stack, which is faster and easier.<br/>
+	
+	![image](https://user-images.githubusercontent.com/32225041/221814653-a779df7f-c29d-44ce-baa4-3c9da1946c7d.png)
+
 
 
 
