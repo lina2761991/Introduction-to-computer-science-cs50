@@ -145,7 +145,27 @@ PS: <br/>
 means you touched memory you should not have touched(like iterating over a length that is higher than the array) <br/>
 *Big-O notation  == asymptotic notation <br/><br/>
 comparing algorithms depends on the runing time and how much space it needs  <br/>
-scalability ;is how much the resource changes when we change input  <br/>
+scalability ;is how much the resource changes when we change input  <br/><br/>
+
+## 4/Memory<br/>
+
+### 1.hexadecimal<br/>
+*we use hexadecimal (base 16) for memory addresses in the system<br/>
+*prefix all hexadecimal numbers with 0x <br/>
+### 2.Pointers <br/>
+*without pointers, we pass copies of variables to the function(not the actual data) but with pointers we pass the actual variables <br/>
+*a pointer is an adress of a location in memory where variables live <br/>
+*the pb is when we make change in one function it can affect the other function <br/>
+* a pointer is a memory adresse <br/>
+*pointers allow us   to pass varibles between functions not copies <br/>
+int k;<br/>
+k = 5<br/>
+int * pk; // declaring pk as a pointer<br/>
+pk = &k // pk holds the adresse of K<br/>
+we can derefrence p with the * operator<br/>
+pointers allow us to pass variables between functions(not copies of them)<br/>
+* setting the pointer to null is a good practice<br/>
+*theres no type string ; theres char* <br/>
 
 
 
