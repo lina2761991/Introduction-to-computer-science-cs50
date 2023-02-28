@@ -213,6 +213,12 @@ However, If you are working with relatively small variables that are only requir
 ######  Garbage collector<br/>
 look for things that are not used anymore in the heap and gets rid of them <br/>
 	
+	
+######  stack overflow refers specifically to the case when the execution stack grows beyond the memory that is reserved for it. For example, if you call a function which recursively calls itself without termination, you will cause a stack overflow as each function call creates a new stack frame and the stack will eventually consume more memory than is reserved for it. <br/>
+
+Buffer overflow refers to any case in which a program writes beyond the end of the memory allocated for any buffer (including on the heap, not just on the stack). For example, if you write past the end of an array allocated from the heap, you've caused a buffer overflow.	 <br/>
+	
+	
 #### Strings<br/>
 there's no string, there's only a reference to a character<br/>
 string s  =  char* s <br/>
@@ -223,6 +229,9 @@ since strings are already adresses so we dont need to add a * or & whenever we c
 
 	
 the problems solved in this part are #### filter-less and #### recover <br/>
+
+	
+	
 
 
 
