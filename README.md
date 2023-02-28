@@ -230,6 +230,19 @@ since strings are already adresses so we dont need to add a * or & whenever we c
 	
 the problems solved in this part are #### filter-less and #### recover <br/>
 
+## 5/Data structures <br/>
+
+### Stack(LIFO) <br/>
+• This data structure is commonly implemented in one of two ways: as an array or as a linked list.  <br/>
+side effects might be ignoring the first elements got in (like emails) <br/>
+the functions are push and pop <br/>
+
+### Queue(FIFO) <br/>
+
+This data structure is commonly implemented in one of two ways: as an array or as a linked list.  <br/>
+the functions are enqueue(add to the end) and dequeue(removing) <br/>
+we have the concept of the head and the tail <br/>
+
 	
 	
 
