@@ -185,7 +185,7 @@ typedef char *string; <br/>
 ### 4.Dynamic Memory allocation<br/>
 Dynamic memory allocation comes from the heap, usually we work with memory that comes from the stack <br/>
 
-Key Difference Between Stack and Heap Memory <br/>
+##### Key Difference Between Stack and Heap Memory <br/>
 Stack is a linear data structure whereas Heap is a hierarchical data structure. <br/>
 Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of memory are first allocated and then freed. <br/>
 Stack accesses local variables only while Heap allows you to access variables globally. <br/>
