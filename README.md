@@ -244,6 +244,11 @@ the functions are enqueue(add to the end) and dequeue(removing) <br/>
 we have the concept of the head and the tail <br/>
 
 	
+### Hash Table <br/>
+its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
+key -> hashcode -> index
+	
+google chaining and collision
 	
 
 
