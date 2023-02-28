@@ -219,7 +219,10 @@ string s  =  char* s <br/>
 "==" would compare the 2 strings memory addresses instead of the actual strings<br/>
 to print the address instead of the actual string, you have to type printf("%p\n,s) instead of printf("%s"\n,s)<br/>
 string s is actually the adresse of the first char of the string <br/>
-since strings are already adresses so we dont need to add a * or & whenever we call them <br/>
+since strings are already adresses so we dont need to add a * or & whenever we call them <br/><br/><br/>
+
+	
+the problems solved in this part are #### filter-less and #### recover <br/>
 
 
 
