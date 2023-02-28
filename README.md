@@ -166,6 +166,25 @@ we can derefrence p with the * operator<br/>
 pointers allow us to pass variables between functions(not copies of them)<br/>
 * setting the pointer to null is a good practice<br/>
 *theres no type string ; theres char* <br/>
+* if arr is an array then &arr[i] is a pointer to the ith element of arr <br/>
+##### how does computer memory work  <br/>
+• Every file on your computer lives on your disk drive, be it a hard disk drive (HDD) or a solid-state drive (SSD).  <br/>
+• Disk drives are just storage space; we can’t directly work there. Manipulation and use of data can only take place in RAM, so we have to move data there.  <br/>
+### 3.Defining Custom Types <br/>
+ using typedef we can create data types that already exist or data taypes of our own <br/>
+like cs50 did for the string ,it created a datatype string but it actually doesnt exist ,only char does ; <br/>
+typedef <oldname> <newname>; <br/>
+typedef char *string; <br/>
+
+### 4.Dynamic Memory allocation<br/>
+Dynamic memory allocation comes from the heap, usually we work with memory that comes from the stack <br/>
+when we use th heap <br/>
+we use malloc ( how many bytes we ll use ) <br/>
+always check for null after a malloc <br/>
+the rules for dynamic memory allocation :<br/>
+1/ every block of memory that you malloc () must be free<br/>
+2/ only the memory that you malloc should be free<br/>
+3/ Do not free() a block of memory more than once <br/>
 
 
 
