@@ -165,8 +165,14 @@ pk = &k // pk holds the adresse of K<br/>
 we can derefrence p with the * operator<br/>
 pointers allow us to pass variables between functions(not copies of them)<br/>
 * setting the pointer to null is a good practice<br/>
-*theres no type string ; theres char* <br/>
+*theres no type string ; theres char* c
 * if arr is an array then &arr[i] is a pointer to the ith element of arr <br/>
+##### What is the difference between “&” and “*” operators in C
+The & is a unary operator in C which returns the memory address of the passed operand. This is also known as address of operator.###
+The * is a unary operator which returns the value of object pointed by a pointer variable. It is known as value of operator. It is also used for declaring pointer variable.
+
+
+
 ##### how does computer memory work  <br/>
 • Every file on your computer lives on your disk drive, be it a hard disk drive (HDD) or a solid-state drive (SSD).  <br/>
 • Disk drives are just storage space; we can’t directly work there. Manipulation and use of data can only take place in RAM, so we have to move data there.  <br/>
@@ -203,13 +209,9 @@ the rules for dynamic memory allocation :<br/>
 1/ every block of memory that you malloc () must be free<br/>
 2/ only the memory that you malloc should be free<br/>
 3/ Do not free() a block of memory more than once <br/>	
-	
-	
-	
-
-However, If you are working with relatively small variables that are only required until the function using them is alive. Then you need to use the stack, which is faster and easier.<br/>
-	
-	![image](https://user-images.githubusercontent.com/32225041/221814653-a779df7f-c29d-44ce-baa4-3c9da1946c7d.png)
+However, If you are working with relatively small variables that are only required until the function using them is alive. Then you need to use the stack, which is faster and easier.<br/><br/>
+######  Garbage collector<br/>
+look for things that are not used anymore in the heap and gets rid of them <br/>
 
 
 
