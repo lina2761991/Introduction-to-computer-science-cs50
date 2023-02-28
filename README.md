@@ -212,6 +212,15 @@ the rules for dynamic memory allocation :<br/>
 However, If you are working with relatively small variables that are only required until the function using them is alive. Then you need to use the stack, which is faster and easier.<br/><br/>
 ######  Garbage collector<br/>
 look for things that are not used anymore in the heap and gets rid of them <br/>
+	
+#### Strings<br/>
+there's no string, there's only a reference to a character<br/>
+string s  =  char* s <br/>
+"==" would compare the 2 strings memory addresses instead of the actual strings<br/>
+to print the address instead of the actual string, you have to type printf("%p\n,s) instead of printf("%s"\n,s)<br/>
+string s is actually the adresse of the first char of the string <br/>
+since strings are already adresses so we dont need to add a * or & whenever we call them <br/>
+
 
 
 
