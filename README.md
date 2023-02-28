@@ -178,6 +178,29 @@ typedef char *string; <br/>
 
 ### 4.Dynamic Memory allocation<br/>
 Dynamic memory allocation comes from the heap, usually we work with memory that comes from the stack <br/>
+
+Key Difference Between Stack and Heap Memory <br/>
+Stack is a linear data structure whereas Heap is a hierarchical data structure. <br/>
+Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of memory are first allocated and then freed. <br/>
+Stack accesses local variables only while Heap allows you to access variables globally. <br/>
+But first let's define each <br/>
+######   What is a Stack?<br/>
+A stack is a special area of computer’s memory which stores temporary variables created by a function.<br/>
+It is a temporary storage memory. When the computing task is complete, the memory of the variable will be automatically erased. The stack section mostly contains methods, local variable, and reference variables.<br/>
+
+######  What is Heap?<br/>
+The heap is a memory used by programming languages to store global variables. By default, all global variable are stored in heap memory space. It supports Dynamic memory allocation.<br/>
+
+The heap is not managed automatically for you and is not as tightly managed by the CPU. It is more like a free-floating region of memory.<br/>
+
+
+######When to use the Heap or stack?<br/>
+You should use heap when you require to allocate a large block of memory. For example, you want to create a large size array or big structure to keep that variable around a long time then you should allocate it on the heap.<br/>
+
+However, If you are working with relatively small variables that are only required until the function using them is alive. Then you need to use the stack, which is faster and easier.<br/>
+
+
+
 when we use th heap <br/>
 we use malloc ( how many bytes we ll use ) <br/>
 always check for null after a malloc <br/>
