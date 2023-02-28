@@ -248,15 +248,19 @@ we have the concept of the head and the tail <br/>
 
 ### Linked List <br/>
 • came as a solution for the array, in order to manipulate them easier  <br/>
- <br/>
- <br/>
+You dont need to allocate the space <br/>
+Insertion is easier<br/>
+Singular linked list: <br/>
+ u have link to ur next element <br/>
+Double linked list: <br/>
+u have link to ur next and previous element <br/>
 
 	
 ### Hash Table <br/>
+we use hash function to get an index of an element in the list <br/>
 its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
-key -> hashcode -> index
-	
-google chaining and collision
+the hash function is python is the dictionairy (in java and c we have hashmap)<br/>
+###### chaining and collision
 	
 
 
