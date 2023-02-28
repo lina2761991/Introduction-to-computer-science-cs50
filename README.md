@@ -243,6 +243,14 @@ This data structure is commonly implemented in one of two ways: as an array or a
 the functions are enqueue(add to the end) and dequeue(removing) <br/>
 we have the concept of the head and the tail <br/>
 
+
+
+
+### Linked List <br/>
+• came as a solution for the array, in order to manipulate them easier  <br/>
+ <br/>
+ <br/>
+
 	
 ### Hash Table <br/>
 its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
