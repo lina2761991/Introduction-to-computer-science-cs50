@@ -261,6 +261,8 @@ we use hash function to get an index of an element in the list <br/>
 its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
 the hash function is python is the dictionairy (in java and c we have hashmap)<br/>
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval<br/>
+	
+### Tries <br/>
 
 
 
