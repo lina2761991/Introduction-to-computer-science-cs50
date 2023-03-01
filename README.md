@@ -67,7 +67,7 @@ strlen; tells the length of a string <br/>
 
 ### Recursion <br/>
 a function that calls itself and the iteration gets smaller and smaller as we go through <br/>
-It doesn't depend on the input (n); like always returning the same value or extracting the first element (zero effort) <br/>
+
 ### Linear Search <br/>
 In linear search, the idea of the algorithm is to iterate across the array from left to right, searching for a specified element. <br/>
 In pseudocode: <br/>
