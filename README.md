@@ -133,6 +133,9 @@ sort left half of the array  <br/>
 sort the right half of the array  <br/>
 merge sorted halves <br/>
 *O(n log n)* <br/>
+
+### Quick Sort <br/>
+
 ##### fastest to slowest: =>apply exponential <br/>
 *o(1)   => 0 <br/>
  *o(log n)  => binary search <br/>
@@ -310,7 +313,7 @@ the space complexity is O(1) when we use just 1 array
 What is contiguous in data structure?
 In contiguous structures, terms of data are kept together in memory (either RAM or in a file). An array is an example of a contiguous structure. Since each element in the array is located next to one or two other elements.
 graphs and trees are recursive data structures
-
+space complexity  is O(1) when the result is constant(not dependant on n)
 
 
 
