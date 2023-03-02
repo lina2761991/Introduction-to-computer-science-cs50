@@ -253,6 +253,7 @@ Singular linked list: <br/>
  u have link to ur next element <br/>
 Double linked list: <br/>
 u have link to ur next and previous element <br/>
+theres no linked list in python
 
 	
 ### Hash Table <br/>
@@ -260,8 +261,12 @@ we use hash function to get an index of an element in the list <br/>
 its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
 the hash function is python is the dictionairy (in java and c we have hashmap)<br/>
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval<br/>
+its the dictionary in python
 	
 ### Tries <br/>
+
+### Arrays <br/>
+they r the lists in python 
 
 
 
