@@ -237,6 +237,8 @@ the problems solved in this part are #### filter-less and #### recover <br/>
 • This data structure is commonly implemented in one of two ways: as an array or as a linked list.  <br/>
 side effects might be ignoring the first elements got in (like emails) <br/>
 the functions are push and pop <br/>
+python list can be used as a stack <br/>
+in python its better to use collection.deque for dynamic arrays
 
 ### Queue(FIFO) <br/>
 
@@ -264,6 +266,8 @@ its a key value look-up,for example if we wanna access data that is related to a
 the hash function is python is the dictionairy (in java and c we have hashmap)<br/>
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval<br/>
 its the dictionary in python
+	
+The pbs we can face with hashtables are collision  (which is getting same key for 2 different values )and we can fix it using seperate chaining method
 	
 ### Tries <br/>
 
