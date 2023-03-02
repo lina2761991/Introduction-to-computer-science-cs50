@@ -301,6 +301,10 @@ Perfect Binary tree: It is a binary tree in which all interior nodes have two ch
 ### Graph <br/>
 
 The graph is like a tree but its more complex, in fact a tree is a special kind of graph where each node has only one parent
+
+
+
+the space complexity is O(1) when we use just 1 array
 	
 ## notes;
 What is contiguous in data structure?
