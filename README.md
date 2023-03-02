@@ -233,6 +233,13 @@ the problems solved in this part are #### filter-less and #### recover <br/>
 
 ## 5/Data structures <br/>
 
+
+### Arrays <br/>
+they r the lists in python 
+in python list is implemented as a dynamic array  while in java and c++ we have static and dynamic arrays
+
+
+
 ### Stack(LIFO) <br/>
 • This data structure is commonly implemented in one of two ways: as an array or as a linked list.  <br/>
 side effects might be ignoring the first elements got in (like emails) <br/>
@@ -245,6 +252,8 @@ in python its better to use collection.deque for dynamic arrays
 This data structure is commonly implemented in one of two ways: as an array or as a linked list.  <br/>
 the functions are enqueue(add to the end) and dequeue(removing) <br/>
 we have the concept of the head and the tail <br/>
+in python queues are list, collections.deque and quee.LifoQueue
+
 
 
 
@@ -269,17 +278,34 @@ its the dictionary in python
 	
 The pbs we can face with hashtables are collision  (which is getting same key for 2 different values )and we can fix it using seperate chaining method
 	
-### Tries <br/>
+### Trees <br/>
 
-### Arrays <br/>
-they r the lists in python 
-in python list is implemented as a dynamic array  while in java and c++ we have static and dynamic arrays
+A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are connected by edges. A tree has the following properties: <br/>
 
+The tree has one node called root. The tree originates from this, and hence it does not have any parent. <br/>
+Each node has one parent only but can have multiple children. <br/>
+Each node is connected to its children via edge. <br/>
+
+
+Types of trees depend on the number of children a node has. There are two major tree types: <br/>
+
+General Tree: A tree in which there is no restriction on the number of children a node has, is called a General tree. Examples are Family tree, Folder Structure. <br/>
+Binary Tree: In a Binary tree, every node can have at most 2 children, left and right. <br/>
+
+Binary trees are further divided into many types based on its application.  <br/>
+
+Full Binary Tree: If every node in a tree has either 0 or 2 children, then the tree is called a full tree.<br/>
+Perfect Binary tree: It is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+
+
+### Graph <br/>
+
+The graph is like a tree but its more complex, in fact a tree is a special kind of graph where each node has only one parent
 	
 ## notes;
 What is contiguous in data structure?
 In contiguous structures, terms of data are kept together in memory (either RAM or in a file). An array is an example of a contiguous structure. Since each element in the array is located next to one or two other elements.
-
+graphs and trees are recursive data structures
 
 
 
