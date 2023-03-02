@@ -175,6 +175,8 @@ The * is a unary operator which returns the value of object pointed by a pointer
 ##### how does computer memory work  <br/>
 • Every file on your computer lives on your disk drive, be it a hard disk drive (HDD) or a solid-state drive (SSD).  <br/>
 • Disk drives are just storage space; we can’t directly work there. Manipulation and use of data can only take place in RAM, so we have to move data there.  <br/>
+code is run by CPU but the memory is in the RAM 
+the int is 4 bytes(  each byte is 8 bits ) 
 ### 3.Defining Custom Types <br/>
  using typedef we can create data types that already exist or data taypes of our own <br/>
 like cs50 did for the string ,it created a datatype string but it actually doesnt exist ,only char does ; <br/>
@@ -267,7 +269,12 @@ its the dictionary in python
 
 ### Arrays <br/>
 they r the lists in python 
+in python list is implemented as a dynamic array  while in java and c++ we have static and dynamic arrays
 
+	
+## notes;
+What is contiguous in data structure?
+In contiguous structures, terms of data are kept together in memory (either RAM or in a file). An array is an example of a contiguous structure. Since each element in the array is located next to one or two other elements.
 
 
 
