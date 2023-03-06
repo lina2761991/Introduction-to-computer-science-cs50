@@ -29,7 +29,7 @@ cp s d : copy source destination  // this is if we wanna copy a file , but if we
 rm : to remove a file <br/>
 rm -r folerName : to remove a folder <br/>
 mv : move from one location to another <br/>
-pwd: path of the current directory <br/>
+pwd: path of the current directory <br/> 
 setwd : change path <br/>
 
 ### variables and scoopes <br/>
