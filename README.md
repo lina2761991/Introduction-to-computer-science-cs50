@@ -164,16 +164,16 @@ int k;<br/>
 k = 5<br/>
 int * pk; // declaring pk as a pointer<br/>
 pk = &k // pk holds the adresse of K<br/>
-we can derefrence p with the * operator<br/>
+we can derefrence p with the * operator<br/> (for example *p = 14 means the values of p is 14)
 pointers allow us to pass variables between functions(not copies of them)<br/>
 * setting the pointer to null is a good practice<br/>
 *theres no type string ; theres char* c
 * if arr is an array then &arr[i] is a pointer to the ith element of arr <br/>
 ##### What is the difference between “&” and “*” operators in C
 The & is a unary operator in C which returns the memory address of the passed operand. This is also known as address of operator.###
-The * is a unary operator which returns the value of object pointed by a pointer variable. It is known as value of operator. It is also used for declaring pointer variable.
-
-
+The * is a unary operator which returns the value of object pointed by a pointer variable. It is known as value of operator. It is also used for declaring pointer variable.<br/>
+buffer is a technical word for some place we are going to store some data as we read it from a file in some sequence of location to memory ,back to back to back  (its like an intermidiate )<br/>
+tools to use to take data from a file and put them to buffer 
 
 ##### how does computer memory work  <br/>
 • Every file on your computer lives on your disk drive, be it a hard disk drive (HDD) or a solid-state drive (SSD).  <br/>
@@ -277,7 +277,8 @@ we use hash function to get an index of an element in the list <br/>
 its a key value look-up,for example if we wanna access data that is related to a certain user we can directly use that user's name <br/>
 the hash function is python is the dictionairy (in java and c we have hashmap)<br/>
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval<br/>
-its the dictionary in python
+its the dictionary in python<br/>
+Hashtable requires more memory than linked list
 	
 The pbs we can face with hashtables are collision  (which is getting same key for 2 different values )and we can fix it using seperate chaining method
 	
@@ -288,6 +289,9 @@ A tree is a hierarchical data structure defined as a collection of nodes. Nodes 
 The tree has one node called root. The tree originates from this, and hence it does not have any parent. <br/>
 Each node has one parent only but can have multiple children. <br/>
 Each node is connected to its children via edge. <br/>
+Trees are better than hashtables in so many ways:<br/>
+trees dont needs a hashfunction and there are no collisions <br/>
+
 
 
 Types of trees depend on the number of children a node has. There are two major tree types: <br/>
