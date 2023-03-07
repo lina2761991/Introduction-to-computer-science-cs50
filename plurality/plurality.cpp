@@ -1,10 +1,10 @@
-#include <cs50.h>
+
 #include <stdio.h>
 #include <string.h>
-
+#include <iostream>
+using namespace std;
 // Max number of candidates
 #define MAX 9
-
 // Candidates have name and vote count
 typedef struct
 {
